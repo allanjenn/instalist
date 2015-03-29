@@ -1,0 +1,190 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+.main {
+ -webkit-box-shadow: inset 0px 40px 30px rgba(0, 0, 0, 0.4);
+}
+
+.main-nav span{
+ color: #fff;
+ font-size: 12px;
+}
+
+body, h1,  h2,  h3, p, span 
+ {
+  font-family: 'Source Code Pro', ;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+a {
+  font-size:18px;
+}
+.header {
+  height: 80px;
+}
+#logo {
+    float: left;
+  }
+
+.logo a {
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 2px 2px 6px #000;
+  text-decoration: none;
+}  
+
+img {
+  width: 100%;
+}
+
+
+.main-nav {
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+.btn {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+.btn:hover {
+  background-color: #cff709;
+  transition:background-color .9s;
+  opacity: 0.5;
+  border: #cff709;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+
+
+.main {
+  height: 550px;
+  background-image: image-url('fresh-produce3.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.main h1 {
+  margin-top: 300px;
+  font-size: 64px;
+  margin-bottom: 20px;
+  line-height: 50px;
+  color: #fff;
+  text-align: right;
+}
+
+.main p {
+  font-size: 22px;
+  color: #fff;
+  text-align: right;
+  font-weight: 100;
+}
+.section h2 {
+  margin-top: 70px;
+  font-size: 48px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.section p {
+  font-size: 20px;
+  font-weight: 200;  
+  margin-bottom: 40px;
+}
+
+.section .img-right {
+  float: right;
+}
+
+.main-btn  {
+    color: white;
+    background-color: rgb(200, 54, 54); /* The Fallback */
+    background-color: rgba(238,68,95,0.9); 
+    padding: 10px 20px;
+}
+
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.store {
+  text-align: center;
+  border-bottom: 0px;
+  padding-bottom:100px;
+  border-top: 100px;
+  padding-top: 100px;
+}
+
+.store h2 {
+margin-bottom: 30px;
+}
+
+.footer {
+  border-top: 1px solid #dbdbdb;
+  background-color: #f3f3f3;
+  padding: 20px 0px 60px;
+}
+
+.footer h3 {
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer li {
+  color: #999;
+  font-weight: 300;
+}
+
+.thumbnail :hover {
+  #color: #cff709;
+  background-color: #cff709;
+  text-decoration: none;
+}
+
+.active {
+background-color: #cff709;
+}
+
+.thumbnail :visited {
+  #color: #cff709;
+  background-color: #cff709;
+}
+
+.thumbnail :active {
+  #color: #cff709;
+  background-color: #cff709;
+}

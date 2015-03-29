@@ -1,0 +1,16 @@
+<div class="items">
+	<div class="row">
+		<% @item.each do |item| %>
+			<div class="col-md-3">
+				<%= link_to(add_to_cart_item_path(item), method: :post, class: "active") do %>
+					<div class="thumbnail">
+						<img src="<%= item.image %>">
+						<div class="caption">
+							<h3 class="name"><%= item.name %></h3>
+						</div>
+					</div>
+				<% end %>
+			</div>
+		<% end %>
+	</div>
+</div>

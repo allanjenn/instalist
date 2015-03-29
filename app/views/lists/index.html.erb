@@ -1,0 +1,14 @@
+
+<div class="row">
+  <% @list.each do |list| %>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <img src="<%= list.item.image %>">
+        <div class="caption">
+          <h3 class="name"><%= list.item.name %></h3>
+        </div>
+          <p class="caption"><%= link_to("delete", delete_list_path(list), method: :delete)%></p>
+      </div>     
+    </div>
+  <% end %>
+</div>
