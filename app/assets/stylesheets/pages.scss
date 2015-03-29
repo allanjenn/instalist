@@ -173,6 +173,7 @@ line-height: 24px;
   #color: #cff709;
   background-color: #cff709;
   text-decoration: none;
+  #background-image: image-url('add.png');
 }
 
 .active {
@@ -180,11 +181,11 @@ background-color: #cff709;
 }
 
 .thumbnail :visited {
-  #color: #cff709;
+  color: #cff709;
   background-color: #cff709;
 }
 
 .thumbnail :active {
-  #color: #cff709;
+  color: #cff709;
   background-color: #cff709;
 }
