@@ -151,22 +151,15 @@ margin-bottom: 30px;
   border-top: 1px solid #dbdbdb;
   background-color: #f3f3f3;
   padding: 20px 0px 60px;
+  color: black;
 }
 
-.footer h3 {
-font-size: 16px;
-font-weight: 300;
-line-height: 24px;
+.footer p {
+  color: black;
 }
 
-.footer ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.footer li {
-  color: #999;
-  font-weight: 300;
+.thumbnail {
+ background-color: white;
 }
 
 .thumbnail :hover {
@@ -178,16 +171,6 @@ line-height: 24px;
 
 .active {
 background-color: #cff709;
-}
-
-.thumbnail :visited {
-  color: #cff709;
-  background-color: #cff709;
-}
-
-.thumbnail :active {
-  color: #cff709;
-  background-color: #cff709;
 }
 
 .main .form-control {
